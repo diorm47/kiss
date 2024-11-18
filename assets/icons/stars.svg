@@ -1,0 +1,16 @@
+<svg width="144.000000" height="24.000000" viewBox="0 0 144 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Star 2" rx="0.000000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<path id="Star 1" d="M12 0L9.3 8.29L0.58 8.29L7.64 13.41L4.94 21.7L12 16.58L19.05 21.7L16.35 13.41L23.41 8.29L14.69 8.29L12 0Z" fill="#FFEA00" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<rect id="Star 3" rx="0.000000" width="23.000000" height="23.000000" transform="translate(30.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<path id="Star 1" d="M42 0L39.3 8.29L30.58 8.29L37.64 13.41L34.94 21.7L42 16.58L49.05 21.7L46.35 13.41L53.41 8.29L44.69 8.29L42 0Z" fill="#FFEA00" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<rect id="Star 4" rx="0.000000" width="23.000000" height="23.000000" transform="translate(60.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<path id="Star 1" d="M72 0L69.3 8.29L60.58 8.29L67.64 13.41L64.94 21.7L72 16.58L79.05 21.7L76.35 13.41L83.41 8.29L74.69 8.29L72 0Z" fill="#FFEA00" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<rect id="Star 5" rx="0.000000" width="23.000000" height="23.000000" transform="translate(90.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<path id="Star 1" d="M102 0L99.3 8.29L90.58 8.29L97.64 13.41L94.94 21.7L102 16.58L109.05 21.7L106.36 13.41L113.41 8.29L104.69 8.29L102 0Z" fill="#FFEA00" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<rect id="Star 6" rx="0.000000" width="23.000000" height="23.000000" transform="translate(120.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<path id="Star 1" d="M132 0L129.3 8.29L120.58 8.29L127.64 13.41L124.94 21.7L132 16.58L139.05 21.7L136.36 13.41L143.41 8.29L134.69 8.29L132 0Z" fill="#FFEA00" fill-opacity="1.000000" fill-rule="nonzero"/>
+</svg>
