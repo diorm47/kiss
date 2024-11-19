@@ -1493,33 +1493,144 @@ footer {
 
 .method_card_desc h3 {
   /* H3 */
-color: rgb(50, 52, 52);
-margin-bottom: 16px;
-font-size: 24px;
-font-weight: 500;
-line-height: 120%;
-letter-spacing: -1%;
-text-align: left;
+  color: rgb(50, 52, 52);
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -1%;
+  text-align: left;
 }
-.method_card_desc h5{
+.method_card_desc h5 {
   /* Normal */
-color: rgba(38, 40, 40, 0.6);
-font-size: 16px;
-font-weight: 400;
-line-height: 140%;
-letter-spacing: 0%;
-text-align: left;
-margin-bottom: 24px;
+  color: rgba(38, 40, 40, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
 }
 .method_card_desc h4 {
   margin-bottom: 18px;
 }
 
-.method_card_desc
-.service_desc {
+.method_card_desc .service_desc {
   width: 100%;
   margin-bottom: 20px;
 }
 .method_card_desc .service_desc_item {
   margin-bottom: 12px;
+}
+
+.step_card {
+  border-radius: 16px;
+  padding: 24px 24px 0px 24px;
+  height: 447px;
+  position: relative;
+  background: rgb(242, 249, 250);
+}
+.step_card h4 {
+  /* Н4 */
+  color: rgba(38, 40, 40, 0.6);
+  margin-bottom: 24px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -1%;
+  text-align: left;
+}
+.step_card h3 {
+  /* Н4 */
+  color: rgb(50, 52, 52);
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -1%;
+  text-align: left;
+}
+
+.step_card p {
+  /* Normal */
+  color: rgba(38, 40, 40, 0.6);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.card_ellipse {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.price_item p {
+  /* Normal */
+  color: rgb(50, 52, 52);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.price_item p:last-child {
+  text-decoration: underline;
+}
+.price_item span {
+  /* Н4 */
+  color: rgb(50, 52, 52);
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -1%;
+  text-align: left;
+}
+
+.seo_desc h4 {
+  /* Н4 */
+  color: rgb(50, 52, 52);
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -1%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.seo_desc ul {
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+.seo_desc p {
+  /* Normal */
+  color: rgb(50, 52, 52);
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.seo_desc {
+  max-width: 1018px;
+}
+.effect_card img {
+  width: 100%;
+}
+
+
+.services_carousel
+.services_card {
+ box-shadow: none;
+ border: 1px solid #00000014;
 }
