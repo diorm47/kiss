@@ -367,6 +367,7 @@ section {
   line-height: 140%;
   letter-spacing: 0%;
   text-align: left;
+  cursor: pointer;
 }
 
 .actions_card_left {
@@ -1628,9 +1629,113 @@ footer {
   width: 100%;
 }
 
+.services_carousel .services_card {
+  box-shadow: none;
+  border: 1px solid #00000014;
+}
 
-.services_carousel
-.services_card {
- box-shadow: none;
- border: 1px solid #00000014;
+.text_rev_card {
+  border-radius: 16px;
+  height: 500px;
+  padding: 32px;
+  box-shadow: 0px 0px 52px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text_rev_card_author_avatar {
+  width: 61px;
+  height: 61px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.text_rev_card_author {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.text_rev_card_author p {
+  /* Н4 */
+  color: rgb(50, 52, 52);
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -1%;
+  text-align: left;
+}
+
+.text_rev_card_text {
+  height: 220px;
+  overflow: auto;
+  padding-right: 24px;
+}
+
+.text_rev_card_text::-webkit-scrollbar {
+  width: 4px; /* Width of the vertical scrollbar */
+}
+
+.text_rev_card_text::-webkit-scrollbar-track {
+  border-radius: 10px;
+
+  background: rgb(217, 217, 217);
+}
+
+.text_rev_card_text::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+
+  background: rgba(38, 40, 40, 0.3);
+}
+
+.text_rev_card_text p {
+  /* Normal */
+  color: rgb(50, 52, 52);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.text_rev_card_top_btm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text_rev_card_top_btm p {
+  /* Normal */
+  color: rgba(38, 40, 40, 0.6);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.rev_text_carousel {
+  padding: 40px 0;
+}
+.reviews_block {
+  display: none;
+}
+
+.reviews_block_active {
+  display: block;
+}
+
+.ais {
+  justify-content: start;
+}
+.method_card {
+  display: none;
+}
+
+.active_method_card {
+  display: flex;
 }

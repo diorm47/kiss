@@ -171,15 +171,17 @@
         <h3>Методы и технологии имплантации</h3>
       </div>
 
-      <div class="filter_btns">
-        <button class="filter_btn active_filter_btn">Классическая</button>
-        <button class="filter_btn">Дентальная</button>
-        <button class="filter_btn">Одномоментная</button>
-        <button class="filter_btn">All-on-4</button>
-        <button class="filter_btn">All-on-6</button>
+      <div class="filter_btns tabs_list">
+        <button class="filter_btn active_filter_btn" data-id="serv1">
+          Классическая
+        </button>
+        <button class="filter_btn" data-id="serv2">Дентальная</button>
+        <button class="filter_btn" data-id="serv3">Одномоментная</button>
+        <button class="filter_btn" data-id="serv4">All-on-4</button>
+        <button class="filter_btn" data-id="serv5">All-on-6</button>
       </div>
 
-      <div class="method_card">
+      <div class="method_card active_method_card" id="serv1">
         <div class="method_card_img">
           <img src="./assets/images/method/1.png" alt="" />
         </div>
@@ -191,7 +193,7 @@
             восстановить один зуб.
           </h5>
           <div class="service_desc">
-            <h4>Имплантация показана, если:</h4>
+            <h4>Преимущества</h4>
             <div class="service_desc_item">
               <img src="./assets/icons/check.svg" alt="" />
               <p>
@@ -215,6 +217,192 @@
                 Пациенты избавляются от неудобств, связанных с съёмными
                 протезами.
               </p>
+            </div>
+          </div>
+          <div class="actions_card_actions">
+            <button class="main_btn">Записаться</button>
+            <p>Подробнее</p>
+          </div>
+        </div>
+      </div>
+      <div class="method_card" id="serv2">
+        <div class="method_card_img">
+          <img src="./assets/images/method/2.png" alt="" />
+        </div>
+        <div class="method_card_desc">
+          <h3>Дентальная имплантация</h3>
+          <h5>
+            Дентальная имплантация — это современный метод восстановления
+            отсутствующих зубов путём установки искусственного корня
+            (имплантата) в челюстную кость, который служит опорой для зубного
+            протеза.
+          </h5>
+          <div class="service_desc">
+            <h4>Преимущества</h4>
+            <div class="service_desc_item">
+              <img src="./assets/icons/check.svg" alt="" />
+              <p>
+                Правильно установленные импланты могут служить много лет, иногда
+                десятилетиями;
+              </p>
+            </div>
+            <div class="service_desc_item">
+              <img src="./assets/icons/check.svg" alt="" />
+              <p>Импланты выглядят и ощущаются как натуральные зубы;</p>
+            </div>
+            <div class="service_desc_item">
+              <img src="./assets/icons/check.svg" alt="" />
+              <p>
+                Импланты предотвращают атрофию челюстной кости, которая может
+                происходить при отсутствии зубов;
+              </p>
+            </div>
+            <div class="service_desc_item">
+              <img src="./assets/icons/check.svg" alt="" />
+              <p>
+                Импланты не требуют специального ухода, как съёмные протезы.
+              </p>
+            </div>
+          </div>
+          <div class="actions_card_actions">
+            <button class="main_btn">Записаться</button>
+            <p>Подробнее</p>
+          </div>
+        </div>
+      </div>
+      <div class="method_card" id="serv3">
+        <div class="method_card_img">
+          <img src="./assets/images/method/3.png" alt="" />
+        </div>
+        <div class="method_card_desc">
+          <h3>Одномоментная имплантация</h3>
+          <h5>
+            Одномоментная имплантация — современный протокол, по которому
+            вживить искусственный корень можно сразу после удаления одного
+            или нескольких зубов
+          </h5>
+          <div class="service_desc">
+            <h4>Преимущества</h4>
+            <div class="service_desc_item">
+              <img src="./assets/icons/check.svg" alt="" />
+              <p>
+                Пациенты могут избежать дополнительного визита для установки
+                импланта, что экономит время;
+              </p>
+            </div>
+            <div class="service_desc_item">
+              <img src="./assets/icons/check.svg" alt="" />
+              <p>
+                Способствует более быстрому восстановлению функциональности
+                зубного ряда и эстетики;
+              </p>
+            </div>
+            <div class="service_desc_item">
+              <img src="./assets/icons/check.svg" alt="" />
+              <p>
+                Установка импланта сразу после удаления зуба помогает сохранить
+                объём зубной кости;
+              </p>
+            </div>
+            <div class="service_desc_item">
+              <img src="./assets/icons/check.svg" alt="" />
+              <p>
+                Меньшее количество операций может снизить общий уровень
+                дискомфорта.
+              </p>
+            </div>
+          </div>
+          <div class="actions_card_actions">
+            <button class="main_btn">Записаться</button>
+            <p>Подробнее</p>
+          </div>
+        </div>
+      </div>
+      <div class="method_card" id="serv4">
+        <div class="method_card_img">
+          <img src="./assets/images/method/4.png" alt="" />
+        </div>
+        <div class="method_card_desc">
+          <h3>All-on-4</h3>
+          <h5>
+            Имплантация по методу All-on-4 — это революционная стоматологическая
+            процедура, позволяющая установить полный ряд зубов на всего четыре
+            импланта.
+          </h5>
+          <div class="service_desc">
+            <h4>Преимущества</h4>
+            <div class="service_desc_item">
+              <img src="./assets/icons/check.svg" alt="" />
+              <p>
+                Установка всего четырёх имплантов для поддержки полного протеза
+                значительно сокращает время операции;
+              </p>
+            </div>
+            <div class="service_desc_item">
+              <img src="./assets/icons/check.svg" alt="" />
+              <p>
+                После установки имплантов пациентам часто предлагают временный
+                протез для восстановления жевательной функции;
+              </p>
+            </div>
+            <div class="service_desc_item">
+              <img src="./assets/icons/check.svg" alt="" />
+              <p>
+                Положение имплантов учитывает анатомические особенности челюсти,
+                чтобы сохранить естественную костную структуру;
+              </p>
+            </div>
+            <div class="service_desc_item">
+              <img src="./assets/icons/check.svg" alt="" />
+              <p>
+                Данная процедура часто оказывается более экономически
+                эффективной по сравнению с традиционными методами.
+              </p>
+            </div>
+          </div>
+          <div class="actions_card_actions">
+            <button class="main_btn">Записаться</button>
+            <p>Подробнее</p>
+          </div>
+        </div>
+      </div>
+      <div class="method_card" id="serv5">
+        <div class="method_card_img">
+          <img src="./assets/images/method/5.png" alt="" />
+        </div>
+        <div class="method_card_desc">
+          <h3>All-on-6</h3>
+          <h5>
+            Имплантация по методу All-on-6 — это современный подход
+            к восстановлению зубного ряда, который предусматривает установку
+            полного протеза на шести зубных имплантах.
+          </h5>
+          <div class="service_desc">
+            <h4>Преимущества</h4>
+            <div class="service_desc_item">
+              <img src="./assets/icons/check.svg" alt="" />
+              <p>
+                Установка шести имплантов позволяет улучшить распределение
+                жевательной нагрузки и повысить стабильность протеза;
+              </p>
+            </div>
+            <div class="service_desc_item">
+              <img src="./assets/icons/check.svg" alt="" />
+              <p>
+                Метод All-on-6 часто используется у пациентов с более серьёзными
+                проблемами зубов или недостатком костной ткани;
+              </p>
+            </div>
+            <div class="service_desc_item">
+              <img src="./assets/icons/check.svg" alt="" />
+              <p>
+                С шестью имплантами возможно создавать более естественно
+                выглядящие и функционально устойчивые протезы;
+              </p>
+            </div>
+            <div class="service_desc_item">
+              <img src="./assets/icons/check.svg" alt="" />
+              <p>Высокая надёжность и долговечность протеза.</p>
             </div>
           </div>
           <div class="actions_card_actions">
@@ -840,133 +1028,358 @@
           <h3>Отзывы</h3>
         </div>
 
-        <div class="revs_btns">
-          <button class="revs_btn revs_btn_active">Видеотзывы</button>
-          <button class="revs_btn">Текстовые отзывы</button>
+        <div class="revs_btns tabs_list">
+          <button class="revs_btn revs_btn_active" data-id="rev1">
+            Видеотзывы
+          </button>
+          <button class="revs_btn" data-id="rev2">Текстовые отзывы</button>
         </div>
-        <div class="carousel_wrapper">
-          <div class="carousel_container revs_carousel">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="rev_card">
-                  <img
-                    class="rev_card_img"
-                    src="./assets/images/revs/1.png"
-                    alt=""
-                  />
-                  <img
-                    class="rev_card_play"
-                    src="./assets/icons/play-rev.svg"
-                    alt=""
-                  />
+
+        <div class="reviews_block reviews_block_active" id="rev1">
+          <div class="carousel_wrapper">
+            <div class="carousel_container revs_carousel">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="rev_card">
+                    <img
+                      class="rev_card_img"
+                      src="./assets/images/revs/1.png"
+                      alt=""
+                    />
+                    <img
+                      class="rev_card_play"
+                      src="./assets/icons/play-rev.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="rev_card">
+                    <img
+                      class="rev_card_img"
+                      src="./assets/images/revs/2.png"
+                      alt=""
+                    />
+                    <img
+                      class="rev_card_play"
+                      src="./assets/icons/play-rev.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="rev_card">
+                    <img
+                      class="rev_card_img"
+                      src="./assets/images/revs/3.png"
+                      alt=""
+                    />
+                    <img
+                      class="rev_card_play"
+                      src="./assets/icons/play-rev.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="rev_card">
+                    <img
+                      class="rev_card_img"
+                      src="./assets/images/revs/4.png"
+                      alt=""
+                    />
+                    <img
+                      class="rev_card_play"
+                      src="./assets/icons/play-rev.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="rev_card">
+                    <img
+                      class="rev_card_img"
+                      src="./assets/images/revs/1.png"
+                      alt=""
+                    />
+                    <img
+                      class="rev_card_play"
+                      src="./assets/icons/play-rev.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="rev_card">
+                    <img
+                      class="rev_card_img"
+                      src="./assets/images/revs/2.png"
+                      alt=""
+                    />
+                    <img
+                      class="rev_card_play"
+                      src="./assets/icons/play-rev.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="rev_card">
+                    <img
+                      class="rev_card_img"
+                      src="./assets/images/revs/3.png"
+                      alt=""
+                    />
+                    <img
+                      class="rev_card_play"
+                      src="./assets/icons/play-rev.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="rev_card">
+                    <img
+                      class="rev_card_img"
+                      src="./assets/images/revs/4.png"
+                      alt=""
+                    />
+                    <img
+                      class="rev_card_play"
+                      src="./assets/icons/play-rev.svg"
+                      alt=""
+                    />
+                  </div>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="rev_card">
-                  <img
-                    class="rev_card_img"
-                    src="./assets/images/revs/2.png"
-                    alt=""
-                  />
-                  <img
-                    class="rev_card_play"
-                    src="./assets/icons/play-rev.svg"
-                    alt=""
-                  />
-                </div>
+            </div>
+            <div class="car_arrows">
+              <div class="car_arrow car_arrow_left revs_car_left">
+                <img src="./assets/icons/car-arr-l.svg" alt="" />
               </div>
-              <div class="swiper-slide">
-                <div class="rev_card">
-                  <img
-                    class="rev_card_img"
-                    src="./assets/images/revs/3.png"
-                    alt=""
-                  />
-                  <img
-                    class="rev_card_play"
-                    src="./assets/icons/play-rev.svg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="rev_card">
-                  <img
-                    class="rev_card_img"
-                    src="./assets/images/revs/4.png"
-                    alt=""
-                  />
-                  <img
-                    class="rev_card_play"
-                    src="./assets/icons/play-rev.svg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="rev_card">
-                  <img
-                    class="rev_card_img"
-                    src="./assets/images/revs/1.png"
-                    alt=""
-                  />
-                  <img
-                    class="rev_card_play"
-                    src="./assets/icons/play-rev.svg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="rev_card">
-                  <img
-                    class="rev_card_img"
-                    src="./assets/images/revs/2.png"
-                    alt=""
-                  />
-                  <img
-                    class="rev_card_play"
-                    src="./assets/icons/play-rev.svg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="rev_card">
-                  <img
-                    class="rev_card_img"
-                    src="./assets/images/revs/3.png"
-                    alt=""
-                  />
-                  <img
-                    class="rev_card_play"
-                    src="./assets/icons/play-rev.svg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="rev_card">
-                  <img
-                    class="rev_card_img"
-                    src="./assets/images/revs/4.png"
-                    alt=""
-                  />
-                  <img
-                    class="rev_card_play"
-                    src="./assets/icons/play-rev.svg"
-                    alt=""
-                  />
-                </div>
+              <div class="car_arrow car_arrow_right revs_car_right">
+                <img src="./assets/icons/car-arr-r.svg" alt="" />
               </div>
             </div>
           </div>
-          <div class="car_arrows">
-            <div class="car_arrow car_arrow_left revs_car_left">
-              <img src="./assets/icons/car-arr-l.svg" alt="" />
+        </div>
+        <div class="reviews_block" id="rev2">
+          <div class="carousel_wrapper">
+            <div class="carousel_container rev_text_carousel">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="text_rev_card">
+                    <div class="text_rev_card_top">
+                      <div class="text_rev_card_author">
+                        <img
+                          class="text_rev_card_author_avatar"
+                          src="./assets/images/avatar.png"
+                          alt=""
+                        />
+                        <div>
+                          <p>Аnna</p>
+                          <img src="./assets/icons/stars.svg" alt="" />
+                        </div>
+                      </div>
+                      <div class="text_rev_card_text">
+                        <p>
+                          Прекрасная стоматология, пожалуй одна из лучших
+                          в городе. Хожу уже не первый год, всё всегда на высшем
+                          уровне. Очень внимательные врачи и администраторы,
+                          всё расскажут и объяснят, после лечения никаких
+                          осложнений, никакого навязывания дополнительных услуг.
+                          Отдельной похвалы заслуживает интерьер, учень уютный,
+                          это наверное единственая клиника, где я рада,
+                          если врач задерживается, и я могу подольше посидеть
+                          в холле ☺️
+                        </p>
+                      </div>
+                    </div>
+                    <div class="text_rev_card_top_btm">
+                      <p>31 мая 2024</p>
+                      <img src="./assets/icons/point.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="text_rev_card">
+                    <div class="text_rev_card_top">
+                      <div class="text_rev_card_author">
+                        <img
+                          class="text_rev_card_author_avatar"
+                          src="./assets/images/avatar.png"
+                          alt=""
+                        />
+                        <div>
+                          <p>Аnna</p>
+                          <img src="./assets/icons/stars.svg" alt="" />
+                        </div>
+                      </div>
+                      <div class="text_rev_card_text">
+                        <p>
+                          Прекрасная стоматология, пожалуй одна из лучших
+                          в городе. Хожу уже не первый год, всё всегда на высшем
+                          уровне. Очень внимательные врачи и администраторы,
+                          всё расскажут и объяснят, после лечения никаких
+                          осложнений, никакого навязывания дополнительных услуг.
+                          Отдельной похвалы заслуживает интерьер, учень уютный,
+                          это наверное единственая клиника, где я рада,
+                          если врач задерживается, и я могу подольше посидеть
+                          в холле ☺️
+                        </p>
+                      </div>
+                    </div>
+                    <div class="text_rev_card_top_btm">
+                      <p>31 мая 2024</p>
+                      <img src="./assets/icons/point.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="text_rev_card">
+                    <div class="text_rev_card_top">
+                      <div class="text_rev_card_author">
+                        <img
+                          class="text_rev_card_author_avatar"
+                          src="./assets/images/avatar.png"
+                          alt=""
+                        />
+                        <div>
+                          <p>Аnna</p>
+                          <img src="./assets/icons/stars.svg" alt="" />
+                        </div>
+                      </div>
+                      <div class="text_rev_card_text">
+                        <p>
+                          Прекрасная стоматология, пожалуй одна из лучших
+                          в городе. Хожу уже не первый год, всё всегда на высшем
+                          уровне. Очень внимательные врачи и администраторы,
+                          всё расскажут и объяснят, после лечения никаких
+                          осложнений, никакого навязывания дополнительных услуг.
+                          Отдельной похвалы заслуживает интерьер, учень уютный,
+                          это наверное единственая клиника, где я рада,
+                          если врач задерживается, и я могу подольше посидеть
+                          в холле ☺️
+                        </p>
+                      </div>
+                    </div>
+                    <div class="text_rev_card_top_btm">
+                      <p>31 мая 2024</p>
+                      <img src="./assets/icons/point.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="text_rev_card">
+                    <div class="text_rev_card_top">
+                      <div class="text_rev_card_author">
+                        <img
+                          class="text_rev_card_author_avatar"
+                          src="./assets/images/avatar.png"
+                          alt=""
+                        />
+                        <div>
+                          <p>Аnna</p>
+                          <img src="./assets/icons/stars.svg" alt="" />
+                        </div>
+                      </div>
+                      <div class="text_rev_card_text">
+                        <p>
+                          Прекрасная стоматология, пожалуй одна из лучших
+                          в городе. Хожу уже не первый год, всё всегда на высшем
+                          уровне. Очень внимательные врачи и администраторы,
+                          всё расскажут и объяснят, после лечения никаких
+                          осложнений, никакого навязывания дополнительных услуг.
+                          Отдельной похвалы заслуживает интерьер, учень уютный,
+                          это наверное единственая клиника, где я рада,
+                          если врач задерживается, и я могу подольше посидеть
+                          в холле ☺️
+                        </p>
+                      </div>
+                    </div>
+                    <div class="text_rev_card_top_btm">
+                      <p>31 мая 2024</p>
+                      <img src="./assets/icons/point.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="text_rev_card">
+                    <div class="text_rev_card_top">
+                      <div class="text_rev_card_author">
+                        <img
+                          class="text_rev_card_author_avatar"
+                          src="./assets/images/avatar.png"
+                          alt=""
+                        />
+                        <div>
+                          <p>Аnna</p>
+                          <img src="./assets/icons/stars.svg" alt="" />
+                        </div>
+                      </div>
+                      <div class="text_rev_card_text">
+                        <p>
+                          Прекрасная стоматология, пожалуй одна из лучших
+                          в городе. Хожу уже не первый год, всё всегда на высшем
+                          уровне. Очень внимательные врачи и администраторы,
+                          всё расскажут и объяснят, после лечения никаких
+                          осложнений, никакого навязывания дополнительных услуг.
+                          Отдельной похвалы заслуживает интерьер, учень уютный,
+                          это наверное единственая клиника, где я рада,
+                          если врач задерживается, и я могу подольше посидеть
+                          в холле ☺️
+                        </p>
+                      </div>
+                    </div>
+                    <div class="text_rev_card_top_btm">
+                      <p>31 мая 2024</p>
+                      <img src="./assets/icons/point.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="text_rev_card">
+                    <div class="text_rev_card_top">
+                      <div class="text_rev_card_author">
+                        <img
+                          class="text_rev_card_author_avatar"
+                          src="./assets/images/avatar.png"
+                          alt=""
+                        />
+                        <div>
+                          <p>Аnna</p>
+                          <img src="./assets/icons/stars.svg" alt="" />
+                        </div>
+                      </div>
+                      <div class="text_rev_card_text">
+                        <p>
+                          Прекрасная стоматология, пожалуй одна из лучших
+                          в городе. Хожу уже не первый год, всё всегда на высшем
+                          уровне. Очень внимательные врачи и администраторы,
+                          всё расскажут и объяснят, после лечения никаких
+                          осложнений, никакого навязывания дополнительных услуг.
+                          Отдельной похвалы заслуживает интерьер, учень уютный,
+                          это наверное единственая клиника, где я рада,
+                          если врач задерживается, и я могу подольше посидеть
+                          в холле ☺️
+                        </p>
+                      </div>
+                    </div>
+                    <div class="text_rev_card_top_btm">
+                      <p>31 мая 2024</p>
+                      <img src="./assets/icons/point.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="car_arrow car_arrow_right revs_car_right">
-              <img src="./assets/icons/car-arr-r.svg" alt="" />
+            <div class="car_arrows">
+              <div class="car_arrow car_arrow_left rev_text_car_left">
+                <img src="./assets/icons/car-arr-l.svg" alt="" />
+              </div>
+              <div class="car_arrow car_arrow_right rev_text_car_right">
+                <img src="./assets/icons/car-arr-r.svg" alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -1366,8 +1779,37 @@
           },
         });
       });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const swiper = new Swiper(".rev_text_carousel", {
+          loop: false,
+          spaceBetween: 26,
+          slidesPerView: 3,
+          navigation: {
+            nextEl: ".rev_text_car_right",
+            prevEl: ".rev_text_car_left",
+          },
+          pagination: {
+            el: ".docs_pag",
+            clickable: true,
+          },
+          breakpoints: {
+            350: {
+              slidesPerView: 1,
+            },
+            640: {
+              slidesPerView: 2,
+            },
+            900: {
+              slidesPerView: 3,
+            },
+          },
+        });
+      });
     </script>
 
     <script src="./scripts/main.js"></script>
+    <script src="./scripts/tabs.js"></script>
+    <script src="./scripts/services-tabs.js"></script>
   </body>
 </html>
