@@ -15,6 +15,7 @@ a {
 input,
 textarea {
   border: none;
+  font-family: "Roboto", sans-serif;
   outline: none;
 }
 button {
@@ -59,6 +60,9 @@ section {
   align-items: center;
   gap: 24px;
 }
+.top_nav_right p:hover {
+  text-decoration: underline;
+}
 .top_nav_right a:nth-child(1) {
   padding-right: 24px;
 }
@@ -81,6 +85,9 @@ section {
   line-height: 140%;
   letter-spacing: 0%;
 }
+.nav_menu a p:hover {
+  text-decoration: underline;
+}
 
 .main_nav_right {
   display: flex;
@@ -97,17 +104,25 @@ section {
   padding: 12px 24px 12px 24px;
   border: 1px solid rgb(20, 169, 189);
   border-radius: 1000px;
+  transition: all 0.4s ease;
+}
+.phone:hover {
+  background: rgb(20, 169, 189);
+  transition: all 0.4s ease;
 }
 
 .phone p {
   color: rgba(38, 40, 40, 0.9);
+  transition: all 0.4s ease;
 
   font-size: 16px;
   font-weight: 500;
   line-height: 110%;
   letter-spacing: 0%;
 }
-
+.phone:hover p {
+  color: #fff;
+}
 nav {
   background: #f2fafc;
 }
@@ -163,6 +178,12 @@ nav {
   line-height: 110%;
   letter-spacing: 0%;
   text-align: center;
+}
+.main_btn:hover,
+.revs_btn:hover, .filter_btn:hover {
+  transition: all 0.4s ease;
+  background: rgb(16, 150, 168);
+  color: #fff;
 }
 
 .main_header_btns {
@@ -460,6 +481,11 @@ section {
   top: 50%;
   z-index: 11;
   margin-top: -24px;
+  transition: all 0.4s ease;
+}
+.car_arrow:hover {
+  transition: all 0.4s ease;
+background: #f5f1f1;
 }
 
 .car_arrow_right {
@@ -951,6 +977,9 @@ footer {
 }
 .footer_menu p {
   margin-bottom: 12px;
+}
+.footer_menu p:hover, .footer_btm a p:hover {
+  text-decoration: underline;
 }
 .footer_q h4 {
   /* Н4 */
@@ -1933,6 +1962,7 @@ footer {
   box-shadow: 0px 0px 52px 0px rgba(0, 0, 0, 0.06);
   /* White */
   background: rgb(255, 255, 255);
+  cursor: pointer;
 }
 .calc_quest {
   display: flex;
@@ -2040,4 +2070,130 @@ footer {
 }
 .step_form {
   margin-top: 80px;
+}
+
+nav {
+  position: relative;
+}
+.search_wrapper {
+  width: 100%;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  left: 0;
+  z-index: 2;
+  transition: all 0.7s ease;
+  transform: translateY(-150%);
+}
+.active_search_wrapper {
+  transition: all 0.7s ease;
+  transform: translateY(0);
+}
+
+.search_wrapper_top {
+  padding: 32px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.search_wrapper_top p {
+  /* H3 */
+  color: rgb(50, 52, 52);
+
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -1%;
+  text-align: left;
+}
+.search_wrapper_top span {
+  /* Normal */
+  color: rgba(38, 40, 40, 0.6);
+  padding-left: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.search_wrapper img {
+  cursor: pointer;
+}
+
+.nav_search_input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  /* Stroke */
+  padding: 8px 24px 8px 24px;
+  border: 1px solid rgba(38, 40, 40, 0.1);
+  border-radius: 1000px;
+  height: 46px;
+  margin-bottom: 18px;
+}
+
+.nav_search_input input {
+  /* Small */
+  color: rgba(38, 40, 40, 0.6);
+  height: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 60%;
+}
+
+.nav_search_input_icons {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.nav_search_input_icons div {
+  /* Stroke */
+  width: 1px;
+  height: 20px;
+  background: rgba(38, 40, 40, 0.1);
+}
+
+.search_wrapper_desc {
+  padding: 32px 0;
+}
+.search_wrapper_desc h4,
+.search_wrapper_desc h3 {
+  /* Н4 */
+  color: rgb(50, 52, 52);
+  margin-bottom: 32px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -1%;
+  text-align: left;
+}
+
+.search_wrapper_desc h3 {
+  margin-bottom: 16px;
+}
+.search_wrapper_desc ul {
+  padding-left: 20px;
+}
+.search_wrapper_desc li {
+  /* Normal */
+  color: rgba(38, 40, 40, 0.8);
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.services_nav_btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }

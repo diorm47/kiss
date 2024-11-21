@@ -1,3 +1,9 @@
+function searchToggle() {
+  document
+    .querySelector(".search_wrapper")
+    .classList.toggle("active_search_wrapper");
+}
+
 document.querySelectorAll(".faq_item").forEach((item) => {
   item.addEventListener("click", () => {
     item.classList.toggle("faq_item_active");
