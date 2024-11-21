@@ -20,7 +20,7 @@
             <p>Пн-сб 9:00–21:00</p>
           </div>
           <div class="top_nav_right">
-            <a href="#"><p>Калькулятор</p></a>
+            <a href="./calculator.html"><p>Калькулятор</p></a>
             <a href="#"><p>Instagram</p></a>
             <a href="#"><p>Vkontakte</p></a>
             <a href="#"><p>YouTube</p></a>
@@ -32,19 +32,81 @@
           </a>
 
           <div class="nav_menu">
-            <a href="#"><p>Наши специалисты</p></a>
-            <a href="#"><p>Услуги</p></a>
-            <a href="#"><p>Цены</p></a>
-            <a href="#"><p>Отзывы</p></a>
-            <a href="./about.html"><p>О клинике</p></a>
-            <a href="#"><p>Примеры работ</p></a>
+            <a href="./doctors.html"><p>Наши специалисты</p></a>
+            <div class="services_nav_btn">
+              <a href="./services.html"> <p>Услуги</p></a>
+              <img src="./assets/icons/chev-down.svg" alt="" />
+            </div>
+            <a href="./prices.html"><p>Цены</p></a>
+            <a href="./reviews.html"><p>Отзывы</p></a>
+            <a class="active_menu" href="./about.html"><p>О клинике</p></a>
+            <a href="./portfolio.html"><p>Примеры работ</p></a>
             <a href="#"><p>Контакты</p></a>
           </div>
           <div class="main_nav_right">
-            <img class="search_btn" src="./assets/icons/search.svg" alt="" />
-            <a href="tel:+78126435443">
+            <img
+              class="search_btn"
+              onclick="searchToggle()"
+              src="./assets/icons/search.svg"
+              alt=""
+            />
+            <a href="tel:+78126435443" class="phone_wrapper">
               <div class="phone"><p>+7 812 643-54-43</p></div>
             </a>
+            <div class="mob_menu_btn">
+              <img
+                onclick="menuToggle()"
+                src="./assets/icons/burger.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="mob_menu_wrapper">
+          <div class="mob_menu_exit">
+            <img onclick="menuToggle()" src="./assets/icons/exit.svg" alt="" />
+          </div>
+          <div class="nav_menu">
+            <a href="./doctors.html"><p>Наши специалисты</p></a>
+            <a href="./services.html"> <p>Услуги</p></a>
+            <a href="./prices.html"><p>Цены</p></a>
+            <a href="./reviews.html"><p>Отзывы</p></a>
+            <a class="active_menu"  href="./about.html"><p>О клинике</p></a>
+            <a href="./portfolio.html"><p>Примеры работ</p></a>
+            <a href="#"><p>Контакты</p></a>
+            <a href="./calculator.html"><p>Калькулятор</p></a>
+          </div>
+        </div>
+
+        <div class="search_wrapper">
+          <div class="container">
+            <div class="search_wrapper_top">
+              <p>Поиск по сайту <span>Найдено 0 результатов</span></p>
+              <img
+                onclick="searchToggle()"
+                src="./assets/icons/close.svg"
+                alt=""
+              />
+            </div>
+            <div class="nav_search_input">
+              <input type="text" placeholder="Какую услугу вы ищите?" />
+              <div class="nav_search_input_icons">
+                <img src="./assets/icons/search.svg" alt="" />
+                <div></div>
+                <img src="./assets/icons/close.svg" alt="" />
+              </div>
+            </div>
+            <div class="search_wrapper_desc">
+              <h4>По вашему запросу ничего не найдено</h4>
+              <h3>Рекомендации:</h3>
+              <ul>
+                <li>Убедитесь, что все слова написаны без ошибок;</li>
+                <li>Попробуйте использовать другие ключевые слова;</li>
+                <li>
+                  Попробуйте использовать более популярные ключевые слова.
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -1274,5 +1336,6 @@
       });
     </script>
     <script src="./scripts/tabs.js"></script>
+    <script src="./scripts/main.js"></script>
   </body>
 </html>
