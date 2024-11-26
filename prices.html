@@ -32,11 +32,11 @@
               <a href="./services.html"> <p>Услуги</p></a>
               <img src="./assets/icons/chev-down.svg" alt="" />
             </div>
-            <a class="active_menu"  href="./prices.html"><p>Цены</p></a>
+            <a class="active_menu" href="./prices.html"><p>Цены</p></a>
             <a href="./reviews.html"><p>Отзывы</p></a>
             <a href="./about.html"><p>О клинике</p></a>
             <a href="./portfolio.html"><p>Примеры работ</p></a>
-            <a href="#"><p>Контакты</p></a>
+            <a href="./contacts.html"><p>Контакты</p></a>
           </div>
           <div class="main_nav_right">
             <img
@@ -64,11 +64,11 @@
           <div class="nav_menu">
             <a href="./doctors.html"><p>Наши специалисты</p></a>
             <a href="./services.html"> <p>Услуги</p></a>
-            <a class="active_menu"  href="./prices.html"><p>Цены</p></a>
+            <a class="active_menu" href="./prices.html"><p>Цены</p></a>
             <a href="./reviews.html"><p>Отзывы</p></a>
             <a href="./about.html"><p>О клинике</p></a>
             <a href="./portfolio.html"><p>Примеры работ</p></a>
-            <a href="#"><p>Контакты</p></a>
+            <a href="./contacts.html"><p>Контакты</p></a>
             <a href="./calculator.html"><p>Калькулятор</p></a>
           </div>
         </div>
@@ -423,7 +423,7 @@
             <a href="#"><p>Цены</p></a>
             <a href="#"><p>Отзывы</p></a>
             <a href="#"><p>Примеры работ</p></a>
-            <a href="#"><p>Контакты</p></a>
+            <a href="./contacts.html"><p>Контакты</p></a>
             <a href="#"><p>Блог</p></a>
           </div>
           <div class="footer_q">
@@ -448,5 +448,14 @@
       </div>
     </footer>
     <script src="./scripts/main.js"></script>
+    <script>
+      const buttons = document.querySelectorAll(".filter_btns .filter_btn");
+      buttons.forEach((button) => {
+        button.addEventListener("click", () => {
+          buttons.forEach((btn) => btn.classList.remove("active_filter_btn"));
+          button.classList.add("active_filter_btn");
+        });
+      });
+    </script>
   </body>
 </html>

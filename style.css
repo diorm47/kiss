@@ -2047,6 +2047,12 @@ footer {
   border-radius: 16px;
   background: rgba(38, 40, 40, 0.05);
 }
+.show_more_all_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
 
 .calc_page_step_value {
   height: 100%;
