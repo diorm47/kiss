@@ -2245,6 +2245,35 @@ nav {
 .active_menu {
   text-decoration: underline;
 }
+.teeth {
+  width: 100%;
+}
+.tooth {
+  fill: #9fdbe3;
+  transition: all 0.4s ease;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  z-index: 1;
+  transition: all 0.4s ease;
+  stroke: rgba(74, 144, 226, 0.33);
+  stroke-width: 1;
+}
+.calc_page_step .calculator_left {
+  padding-bottom: 0;
+}
+.tooth:hover {
+  transition: all 0.4s ease;
+  fill: #15a8bc;
+}
+.selected_tooth {
+  stroke: #15a8bc;
+  transition: all 0.4s ease;
+  fill: #15a8bc;
+}
+#arr, #arr_2_ {
+  display: none;
+}
 @media only screen and (max-width: 1400px) {
   .container,
   section {
